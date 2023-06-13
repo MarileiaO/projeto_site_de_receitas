@@ -1,0 +1,64 @@
+@media screen and (max-width:750px) {
+    body {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .profile {
+        align-self: center;
+        text-align: center;
+    }
+
+    .profile {
+        display: block;
+    }
+
+    h1 {
+        align-self: center;
+    }
+
+    h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        align-self: center;
+    }
+
+    .info {
+        margin-top: 0 auto;
+        align-self: center;
+    }
+
+    .icon{
+        align-self: center;
+        width: 100%;
+    }
+
+    .icon:hover [type="submit"] {
+        width: 50%;
+    }
+
+    img {
+        display: flex;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1135px) {
+    #txt-1{
+        line-height: 40px;
+        }
+    #txt-2{
+        line-height: 40px;
+        }
+}
